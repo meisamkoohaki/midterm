@@ -19,9 +19,10 @@ namespace MT200412272.Models
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Forum>().HasData(
-                new Models.Forum() { Id = 1, name = "Meisam", comment = "It is a good webpage!", date = 2019, 10, 30 },
-                new Models.Forum() { Id = 2, name = "Meisam", comment = "It is a good webpage!", date = 2017, 1, 18 }
-             );
+                new Models.Forum() { Id = 1, name = "Meisam", comment = "It is a good webpage!", date = DateTime.Today },
+                new Models.Forum() { Id = 2, name = "Koohaki", comment = "It is awsome!", date = DateTime.Today }
+             ); 
+
         }
     }
 }
