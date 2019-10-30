@@ -1,0 +1,3 @@
+C:\Hard\College\Semester 3\Server-Side Scripting-ASP.NET\midterm\midterm\MT200412272\obj\Debug\netcoreapp2.2\MT200412272.csproj.CoreCompileInputs.cache
+C:\Hard\College\Semester 3\Server-Side Scripting-ASP.NET\midterm\midterm\MT200412272\obj\Debug\netcoreapp2.2\MT200412272.AssemblyInfoInputs.cache
+C:\Hard\College\Semester 3\Server-Side Scripting-ASP.NET\midterm\midterm\MT200412272\obj\Debug\netcoreapp2.2\MT200412272.AssemblyInfo.cs
