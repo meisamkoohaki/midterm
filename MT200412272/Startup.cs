@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using MT200412272.Models;
 
 namespace MT200412272
 {
@@ -33,6 +35,9 @@ namespace MT200412272
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<MT200412272Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MT200412272Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
